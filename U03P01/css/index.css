@@ -1,0 +1,56 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    font-size: 24px;
+    color: #242424;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 40%;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    list-style-type: none;
+    padding-block: 10px;
+}
+
+a {
+    font-weight: bold;
+}
+
+li a {
+    color: orange;
+    text-decoration: underline;
+}
+
+.verdesito {
+    color: green;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
