@@ -1,0 +1,52 @@
+.ayuda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section form, textarea {
+    width: 350px;
+}
+
+#nombre, #email, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+#botonEnviar, #botonLimpiar {
+    background-color: var(--color-theme);
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+#botonLimpiar {
+    margin-left: 33%
+}
+
+#errorEmail {
+    background-color: #DC3545;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-align: center;
+    width: 500px;
+}
