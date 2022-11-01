@@ -26,8 +26,10 @@ const obtDatos= async () => {
             <p>Temperatura: ${datos.main.temp}º</p>
             <p>Sensación Térmica: ${datos.main.feels_like}º</p>
             <p>Humedad: ${datos.main.humidity}%</p>
-            <p>Viento: ${datos.wind.speed}Km/h</p>
+            <p>Velocidad de Viento: ${datos.wind.speed}Km/h</p>
             <p>Presión: ${datos.main.pressure} P</p>
+            <p>Temperatura Máxima: ${datos.main.temp_max}º</p>
+            <p>Temperatura Mínima: ${datos.main.temp_min}º</p>
             
             `
             document.getElementById("card").style.display = "block";
